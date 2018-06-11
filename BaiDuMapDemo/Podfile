@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'BaiDuMapDemo' do
+
+#消除导入的库产生的警告
+inhibit_all_warnings!
+#如果有些库不能消除警告，则做特殊处理  pod 'ReactiveCocoa', '~> 2.1.8', :inhibit_warnings => true
+# Uncomment this line if you're using Swift or would like to use dynamic frameworks
+#use_frameworks!
+pod 'BaiduMapKit'
+
+end
+
