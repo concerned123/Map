@@ -31,6 +31,14 @@
 		180069E320CE6D4900A69A6D /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180069DC20CE6D4900A69A6D /* BaiduMapAPI_Base.framework */; };
 		180069E620CE6D8200A69A6D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180069E420CE6D8200A69A6D /* libcrypto.a */; };
 		180069E720CE6D8200A69A6D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180069E520CE6D8200A69A6D /* libssl.a */; };
+		180069F120CF90A900A69A6D /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 180069EF20CF90A900A69A6D /* NSArray+Log.m */; };
+		180069F420CF9C6B00A69A6D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180069F320CF9C6B00A69A6D /* SearchViewController.m */; };
+		180069FA20CFAB1300A69A6D /* BaseLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180069F920CFAB1300A69A6D /* BaseLoadingView.m */; };
+		180069FD20CFB07A00A69A6D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180069FC20CFB07A00A69A6D /* BaseViewController.m */; };
+		18006A0120CFB17D00A69A6D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 18006A0020CFB17D00A69A6D /* Tools.m */; };
+		18006A0420CFB1E500A69A6D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18006A0320CFB1E500A69A6D /* UIView+Extension.m */; };
+		18006A0820CFB61800A69A6D /* UIButton+TouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18006A0720CFB61800A69A6D /* UIButton+TouchArea.m */; };
+		18006A0B20CFBA5200A69A6D /* UINavigationController+MCObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 18006A0A20CFBA5200A69A6D /* UINavigationController+MCObjc.m */; };
 		A87791EF45CD307F1F8CCCE4 /* libPods-BaiDuMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5022EBE8DA42E7E27BE8AFA0 /* libPods-BaiDuMapDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +72,23 @@
 		180069DC20CE6D4900A69A6D /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = Pods/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		180069E420CE6D8200A69A6D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
 		180069E520CE6D8200A69A6D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		180069EF20CF90A900A69A6D /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		180069F020CF90A900A69A6D /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		180069F220CF9C6B00A69A6D /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		180069F320CF9C6B00A69A6D /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		180069F820CFAB1300A69A6D /* BaseLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLoadingView.h; sourceTree = "<group>"; };
+		180069F920CFAB1300A69A6D /* BaseLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLoadingView.m; sourceTree = "<group>"; };
+		180069FB20CFB07A00A69A6D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		180069FC20CFB07A00A69A6D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		180069FF20CFB17D00A69A6D /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		18006A0020CFB17D00A69A6D /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		18006A0220CFB1E500A69A6D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18006A0320CFB1E500A69A6D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		18006A0520CFB2F400A69A6D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18006A0620CFB61800A69A6D /* UIButton+TouchArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TouchArea.h"; sourceTree = "<group>"; };
+		18006A0720CFB61800A69A6D /* UIButton+TouchArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TouchArea.m"; sourceTree = "<group>"; };
+		18006A0920CFBA5200A69A6D /* UINavigationController+MCObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MCObjc.h"; sourceTree = "<group>"; };
+		18006A0A20CFBA5200A69A6D /* UINavigationController+MCObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MCObjc.m"; sourceTree = "<group>"; };
 		3D47D73287DD6B73A1ED37C9 /* Pods-BaiDuMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuMapDemo/Pods-BaiDuMapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5022EBE8DA42E7E27BE8AFA0 /* libPods-BaiDuMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiDuMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB72670E062AFFA529B36C5 /* Pods-BaiDuMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuMapDemo/Pods-BaiDuMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +145,10 @@
 		180069AB20CE41E100A69A6D /* BaiDuMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				180069FE20CFB16900A69A6D /* Tools */,
+				180069F520CFA9D900A69A6D /* Base */,
+				180069F020CF90A900A69A6D /* NSArray+Log.h */,
+				180069EF20CF90A900A69A6D /* NSArray+Log.m */,
 				180069AC20CE41E100A69A6D /* AppDelegate.h */,
 				180069AD20CE41E100A69A6D /* AppDelegate.m */,
 				180069AF20CE41E100A69A6D /* ViewController.h */,
@@ -130,8 +159,37 @@
 				180069BA20CE41E300A69A6D /* Info.plist */,
 				180069BB20CE41E300A69A6D /* main.m */,
 				180069C220CE430B00A69A6D /* SDKHeaderFile.h */,
+				180069F220CF9C6B00A69A6D /* SearchViewController.h */,
+				180069F320CF9C6B00A69A6D /* SearchViewController.m */,
+				18006A0520CFB2F400A69A6D /* PrefixHeader.pch */,
 			);
 			path = BaiDuMapDemo;
+			sourceTree = "<group>";
+		};
+		180069F520CFA9D900A69A6D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				180069F820CFAB1300A69A6D /* BaseLoadingView.h */,
+				180069F920CFAB1300A69A6D /* BaseLoadingView.m */,
+				180069FB20CFB07A00A69A6D /* BaseViewController.h */,
+				180069FC20CFB07A00A69A6D /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		180069FE20CFB16900A69A6D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18006A0220CFB1E500A69A6D /* UIView+Extension.h */,
+				18006A0320CFB1E500A69A6D /* UIView+Extension.m */,
+				18006A0620CFB61800A69A6D /* UIButton+TouchArea.h */,
+				18006A0720CFB61800A69A6D /* UIButton+TouchArea.m */,
+				18006A0920CFBA5200A69A6D /* UINavigationController+MCObjc.h */,
+				18006A0A20CFBA5200A69A6D /* UINavigationController+MCObjc.m */,
+				180069FF20CFB17D00A69A6D /* Tools.h */,
+				18006A0020CFB17D00A69A6D /* Tools.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		454D7D5C2C49F4888AE01AE6 /* Frameworks */ = {
@@ -285,8 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18006A0420CFB1E500A69A6D /* UIView+Extension.m in Sources */,
 				180069B120CE41E100A69A6D /* ViewController.mm in Sources */,
+				180069F120CF90A900A69A6D /* NSArray+Log.m in Sources */,
+				180069FA20CFAB1300A69A6D /* BaseLoadingView.m in Sources */,
+				18006A0B20CFBA5200A69A6D /* UINavigationController+MCObjc.m in Sources */,
+				18006A0820CFB61800A69A6D /* UIButton+TouchArea.m in Sources */,
+				18006A0120CFB17D00A69A6D /* Tools.m in Sources */,
+				180069F420CF9C6B00A69A6D /* SearchViewController.m in Sources */,
 				180069BC20CE41E300A69A6D /* main.m in Sources */,
+				180069FD20CFB07A00A69A6D /* BaseViewController.m in Sources */,
 				180069AE20CE41E100A69A6D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +501,8 @@
 					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit",
 				);
 				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaiDuMapDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaiDuMapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +531,8 @@
 					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit",
 				);
 				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaiDuMapDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaiDuMapDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

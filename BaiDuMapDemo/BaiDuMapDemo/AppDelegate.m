@@ -10,6 +10,8 @@
 #import "SDKHeaderFile.h"
 #import <BaiduMapAPI_Base/BMKBaseComponent.h>           //引入base相关所有的头文件
 
+#import "ViewController.h"
+
 @interface AppDelegate ()
 
 @property (nonatomic, strong) BMKMapManager *mapManager;
@@ -24,11 +26,20 @@
     self.mapManager = [[BMKMapManager alloc] init];
     // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
     BOOL ret = [self.mapManager start:BaiDuMapSDK_AppKey  generalDelegate:nil];
+    
     if (!ret) {
         NSLog(@"地图初始化失败");
     } else {
+        [BMKMapManager logEnable:YES module:BMKMapModuleTile];
+        [BMKMapManager setCoordinateTypeUsedInBaiduMapSDK:BMK_COORDTYPE_COMMON];
         NSLog(@"地图初始化成功");
     }
+    
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
 
     return YES;
 }
